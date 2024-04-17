@@ -142,6 +142,7 @@ div p{
     position: relative;
     z-index: 2000;
     background: white; 
+  
 }
 
 .container .card h1{
@@ -161,6 +162,7 @@ div p{
     object-fit: cover;
     height: 50px; 
     width: 50px;
+    margin-left: 70px;
    
 }
 /* .container .card img{
@@ -457,18 +459,24 @@ div p{
 #email{
     height: 40px;
     width: 340px;
-    border-color:rgba(218, 54, 115, 0.5);
+    border: 2px solid pink;
     padding: 3px 5px;
     border-radius: 6px;
     margin-bottom: 10px;
     color: black;
     font-weight: bold;
 }
+::placeholder{
+    color: #000;
+    font-size: 16px;
+    font-family: sans-serif;
+}
 
 #message{
     height:150px;
     width: 340px;
-    border-color:rgba(218, 54, 115, 0.5);
+    border: 2px solid pink;
+    /* color: black; */
     padding: 3px 5px;
     border-radius: 6px;
     font-weight: bold;
@@ -502,6 +510,7 @@ div p{
     height: 390px;
     width: 1347px;
     margin-top: 120px;
+
 }
 
 .baners h1{
@@ -524,9 +533,19 @@ div p{
     color: #072C59;
 }
 
-.fas{
-    color: #DA3673;
-   text-decoration: none;
+.fa-phone{
+    background: #DA3673;
+    padding: 10px;
+    border-radius: 100%;
+    color: #fff;
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.fa-envelope{
+    height: 25px;
+    
+
 }
 
 .angle2{
@@ -535,6 +554,19 @@ div p{
     background-color: #072C59;
     position: absolute;
     margin-top: 224px;
+}
+
+.num{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #000000ab;
+}
+.address{
+    font-size: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #000000ab;
 }
 
 

@@ -84,7 +84,7 @@ div p{
     width: 700px;
     object-fit: cover;
     left: 649px;
-    bottom: 515px;
+    bottom: 517.3px;
     border-bottom-left-radius: 400px;
     z-index: 10;
 }
@@ -340,9 +340,10 @@ div p{
 }
 
 .interest p{
+    width: 57ch;
     text-align:center;
     font-size: 18px;
-    margin-left: 350px;
+    margin-left: 450px;
     line-height: 25px;
 }
 
@@ -542,10 +543,9 @@ div p{
     font-size: 20px;
     
 }
+
 .fa-envelope{
     height: 25px;
-    
-
 }
 
 .angle2{
@@ -562,6 +562,7 @@ div p{
     text-decoration: none;
     color: #000000ab;
 }
+
 .address{
     font-size: 20px;
     font-family: sans-serif;
